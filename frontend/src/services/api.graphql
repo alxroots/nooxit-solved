@@ -1,0 +1,21 @@
+query getBoxes {
+  boxes {
+    id
+    x
+    y
+    width
+    height
+    color
+  }
+}
+
+mutation createBox($input: BoxInput!) {
+  createBox(input: $input) {
+    id
+    x
+    y
+    width
+    height
+    color
+  }
+}

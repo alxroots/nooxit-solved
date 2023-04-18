@@ -1,0 +1,209 @@
+{
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text-and-comment",
+    "foreground": "#000",
+    "background": "#fff",
+    "opacity": 50,
+    "iconColour": "#00f",
+    "gutterIcon": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "foreground": "#000",
+      "background": "#fff",
+      "iconColour": "#fff"
+    },
+    "NOTE": {
+      "icon": "note",
+      "foreground": "#fff",
+      "background": "#663399",
+      "iconColour": "#e8e8e8"
+    },
+    "COMMENT": {
+      "icon": "note",
+      "foreground": "#fff",
+      "background": "#e8e8e8",
+      "iconColour": "#e8e8e8"
+    },
+    "REAFACTORME": {
+      "foreground": "#000",
+      "background": "#ff0",
+      "iconColour": "#ff0"
+    },
+    "BUG": {
+      "foreground": "#000",
+      "background": "#f00",
+      "iconColour": "#f00"
+    },
+    "[ ]": {
+      "icon": "check",
+      "foreground": "#000",
+      "background": "#fff",
+      "iconColour": "#ff0"
+    },
+    "[x]": {
+      "icon": "check",
+      "foreground": "#fff",
+      "background": "#0f0",
+      "iconColour": "#0f0"
+    }
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "REAFACTORME",
+    "TODO",
+    "NOTE",
+    "COMMENT",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 10,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [80, 120],
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+
+  //prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "prettier.configPath": "./.prettierrc.js",
+  "screencastMode.onlyKeyboardShortcuts": true,
+
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "cSpell.language": "en,pt",
+  "editor.lineHeight": 14,
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+
+  "typescript.suggest.autoImports": true,
+  "workbench.editor.labelFormat": "short",
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "liveshare.featureSet": "insiders",
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "entities": "class",
+    "ErrorBoundary": "error",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings",
+    "queries": "connection"
+  },
+
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.fontFamily": "JetBrains Mono",
+  "gitlens.codeLens.authors.enabled": false,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true
+  },
+  "gitlens.codeLens.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  // CSPELL
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.userWords": [],
+  "cSpell.words": ["Fira", "Roboto", "Sidemenu", "svgrepo"],
+
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#590A3D",
+    "titleBar.activeBackground": "#7D0E55",
+    "titleBar.activeForeground": "#FFFCFE"
+  }
+}

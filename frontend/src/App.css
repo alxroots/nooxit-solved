@@ -1,0 +1,21 @@
+.app-grid {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'side-menu box-canvas';
+}
+
+.box-canvas {
+  grid-area: box-canvas;
+  background-color: #fff;
+}
+
+.cursor-pencil {
+  cursor: url('assets/pencil-cursor.png') 0 16, auto;
+}
+
+.cursor-eraser {
+  cursor: url('assets/eraser.png') 0 16, auto;
+}
